@@ -1,0 +1,63 @@
+body {
+  background: blue;
+  color: black;
+  margin: 20px;
+}
+h1 {
+  text-align: center;
+}
+
+.box {
+  background-color: blueviolet;
+  height: 200px;
+  width: 300px;
+  margin: 20px;
+}
+.box-kedua {
+  background-color: red;
+  height: 200px;
+  width: 600px;
+  margin: 20px;
+}
+
+.tulisan-satu {
+  color: green;
+  font-family: "Courier New", Courier, monospace;
+  font-style: normal;
+  text-decoration: underline;
+}
+.tulisan-kedua {
+  color: orangered;
+  font-size: 24px;
+  text-decoration: italic;
+  text-align: right;
+  text-transform: capitalize;
+}
+.tulisan-ketiga {
+  color: aqua;
+  font-weight: bolder;
+  font-style: oblique;
+  text-align: center;
+  text-transform: lowercase;
+  text-decoration: line-through;
+  word-spacing: 10px;
+}
+
+.link {
+    font-size: 20px;
+}
+
+.link:hover{
+    color: red;
+
+}
+
+.link:link{
+    color: blue;
+}
+.link:active{
+    color: :green;
+}
+.link;:visited{
+    color: yellow;
+}
