@@ -1,5 +1,7 @@
-1. menu setting config token
+code share sesi 3
+https://codeshare.io/webprogramsesi03
 
+1. menu setting config token
 
 2.install git
 3. Membuat repository/ penyimpanan cloud

@@ -16,7 +16,7 @@
   </head>
   <body>
     <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary position-sticky">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">Portofolio</a>
         <button
