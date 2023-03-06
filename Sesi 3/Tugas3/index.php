@@ -59,7 +59,7 @@
       </div>
       <div class="resume">
         <div>
-          <p><strong>availability</strong></p>
+          <p><strong>Availability</strong></p>
           <p><strong>Usia</strong></p>
           <p><strong>Lokasi</strong></p>
           <p><strong>Pengalaman</strong></p>
