@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Belajar RegexExp</h1>
+    <p id="demo1"></p>
+    <p id="demo2"></p>
+    <p id="demo3"></p>
+    <p id="demo4"></p>
+    <p id="demo5"></p>
+
+    <script>
+      let text = "Belajar JavaSCRipT";
+      //   mencari huruf besar
+      let result1 = text.match(/[A-Z]/g);
+      //   mencari huruf besar SC (hanya SC)
+      let result2 = text.match(/[SC]/g);
+      // Mencari data/karakter terakhir (T)
+      let result3 = text.search(/T\b/);
+      // mencari data/karakter pertama (B)
+      let result4 = text.search(/\bB/);
+      // manjadikan satu menggunakan huruf kecil dan menghapus space
+      let lowerCase = text.toLocaleLowerCase();
+
+      //  Hasil mencari huruf besar
+      document.getElementById(
+        "demo1"
+      ).innerHTML = `Huruf besar yang terdapat pada kata ${text} yaitu ${result1}`;
+      //  Hasi mencari huruf besar SC (hanya SC)
+      document.getElementById(
+        "demo2"
+      ).innerHTML = `Huruf besar S,C yang terdapat pada kata ${text} yaitu ${result2}`;
+      //  Hasil Mencari data/karakter terakhir (T)
+      document.getElementById(
+        "demo3"
+      ).innerHTML = `Huruf terakhir yang terdapat pada kata ${text} yaitu pada index ${result3}`;
+      // hasil  mencari data/karakter pertama (B)
+      document.getElementById(
+        "demo4"
+      ).innerHTML = `Huruf pertama yang terdapat pada kata ${text} yaitu pada index ${result4}`;
+      // Menjadikan huruf kecil
+      document.getElementById(
+        "demo5"
+      ).innerHTML = `Menjadikan huruf kecil pada kata ${text} = ${lowerCase}`;
+    </script>
+  </body>
+</html>

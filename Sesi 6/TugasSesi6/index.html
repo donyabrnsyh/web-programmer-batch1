@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p id="paragraph1">
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima,
+      aspernatur.
+    </p>
+    <p id="paragraph2">
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima,
+      aspernatur.
+    </p>
+    <p id="paragraph3">
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima,
+      aspernatur.
+    </p>
+
+    <script>
+      myInterval = setInterval(textColor, 500);
+      function textColor() {
+        let txt1 = document.getElementById("paragraph1");
+        // if else cara 1
+        // txt1.style.color = txt1.style.color == "red" ? "black" : "red";
+        // if else cara 2
+        if (txt1.style.color == "red") {
+          txt1.style.color = "black";
+        } else {
+          txt1.style.color = "red";
+        }
+
+        let txt2 = document.getElementById("paragraph2");
+        txt2.style.color = txt2.style.color == "green" ? "black" : "green";
+        let txt3 = document.getElementById("paragraph3");
+        txt3.style.color = txt3.style.color == "blue" ? "black" : "blue";
+      }
+    </script>
+  </body>
+</html>
